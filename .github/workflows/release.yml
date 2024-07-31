@@ -9,5 +9,6 @@ jobs:
       devopsb78/github-reusable-workflows/.github/workflows/release.yml@main
     with:
       project_name: expense-frontend
+#      release_archive_file: "static asset-manifest.json index.html robots.txt VERSION"
       npm_install: true
     secrets: inherit
