@@ -10,5 +10,5 @@ jobs:
     with:
       project_name: expense-frontend
       release_archive_file: "static asset-manifest.json index.html robots.txt VERSION"
-      npm_install: true
+      npm_install: false
     secrets: inherit
